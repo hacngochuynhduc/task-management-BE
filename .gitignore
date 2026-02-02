@@ -1,0 +1,17 @@
+# --- .NET Artifacts ---
+[Bb]in/
+[Oo]bj/
+[Pp]ackages/
+
+# --- JetBrains (Rider) ---
+.idea/
+riderModule.iml
+
+# --- ReSharper ---
+_ReSharper.Caches/
+*.DotSettings.user
+
+# --- User settings ---
+.vs/
+appsettings.Development.json
+appsettings.Local.json
