@@ -1,7 +1,9 @@
 
 
  Dự án sử dụng **.NET 8** cho Backend, hệ quản trị cơ sở dữ liệu **PostgreSQL**.
-
+<img width="1917" height="1013" alt="image" src="https://github.com/user-attachments/assets/68fe09d2-74ec-4013-bf8d-0a457ef1dd17" />
+<img width="1914" height="961" alt="image" src="https://github.com/user-attachments/assets/ff335589-87c5-4edf-bb3f-c4bbadcfb7e6" />
+<img width="1865" height="957" alt="image" src="https://github.com/user-attachments/assets/207ae641-e630-4f0e-8df1-b149ce585ac2" />
 ---
 Nếu xài visual tím thì open solution file chọn STEAMHOUSE.sln open lên
 Nếu vô không thấy nhánh thư mục thì click vào View chọn Solution Explore
