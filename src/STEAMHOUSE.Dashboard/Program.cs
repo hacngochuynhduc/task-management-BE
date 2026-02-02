@@ -22,7 +22,7 @@ builder.Services.AddDbContext<ApplicationDbContext>(options =>
     options.UseNpgsql(connectionString).UseSnakeCaseNamingConvention();
 });
 
-// --- 2. MediatR & Validation (Trái tim của Logic) ---
+
 builder.Services.AddValidatorsFromAssembly(typeof(CreateTaskListValidator).Assembly);
 
 builder.Services.AddMediatR(cfg => 
