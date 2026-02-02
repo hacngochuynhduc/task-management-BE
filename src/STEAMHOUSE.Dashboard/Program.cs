@@ -31,7 +31,6 @@ builder.Services.AddMediatR(cfg =>
     cfg.RegisterServicesFromAssembly(Assembly.GetExecutingAssembly());
     cfg.RegisterServicesFromAssembly(typeof(TaskServicesDependencies).Assembly);
     
-    // Đăng ký Pipeline Behavior để tự động chặn dữ liệu lỗi
     cfg.AddOpenBehavior(typeof(ValidationBehavior<,>)); 
 });
 
@@ -108,7 +107,6 @@ builder.Services.AddSwaggerGen(c =>
 
 var app = builder.Build();
 
-// --- 6. Pipeline HTTP Request ---
 if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();
